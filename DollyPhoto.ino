@@ -564,7 +564,7 @@ void avvio() {
   
   /**********************************************************/
   
-  for ( scatto=0; scatto <= (numeroScatti+1); scatto++ ) {
+  for ( scatto=0; scatto <= numeroScatti; scatto++ ) {
     
     lcd.setCursor(7, 0);
     lcd.print( "scatto:" );
